@@ -9,25 +9,25 @@ const client = new Client({
   user: PGUSER,
   password: PGPASSWORD,
   port: 5432,
-  ssl: {
-    rejectUnauthorized: false, // You may need to adjust this based on your PostgreSQL server configuration
-  },
+  // ssl: {
+  //   rejectUnauthorized: false, // You may need to adjust this based on your PostgreSQL server configuration
+  // },
 });
 
 async function dbConnect() {
-    
-    try {
-        await client.connect();
-        const result = await client.query('SELECT version()');
-        logger.info('Connected to PostgreSQL database '+ JSON.stringify(result.rows[0]) );
-    } catch (err) {
-      logger.error('Error executing query:', err);
-    } finally {
-      await client.end();
-    }
-  }
- 
 
-  module.exports = {
-    query: (text, params) => pool.query(text, params), dbConnect
-  };
+  try {
+    await client.connect();
+    const result = await client.query('SELECT version()');
+    logger.info('Connected to PostgreSQL database ' + JSON.stringify(result.rows[0]));
+  } catch (err) {
+    logger.error('Error executing query:', err);
+  } finally {
+    await client.end();
+  }
+}
+
+
+module.exports = {
+  query: (text, params) => client.query(text, params), dbConnect
+}; 
