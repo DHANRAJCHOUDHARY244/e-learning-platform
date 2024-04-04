@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 require('dotenv').config();
-
+const logger = require('../utils/pino')
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD } = process.env;
 
 const client = new Client({
@@ -14,24 +14,20 @@ const client = new Client({
   },
 });
 
-async function getPgVersion() {
+async function dbConnect() {
     
     try {
         await client.connect();
-        console.log('====================================');
-        console.log('Connected to PostgreSQL database');
-        console.log('====================================');
-      const result = await client.query('SELECT version()');
-      console.log(result.rows[0]);
+        const result = await client.query('SELECT version()');
+        logger.info('Connected to PostgreSQL database '+ JSON.stringify(result.rows[0]) );
     } catch (err) {
-      console.error('Error executing query:', err);
+      logger.error('Error executing query:', err);
     } finally {
       await client.end();
     }
   }
-  
-  getPgVersion();
+ 
 
   module.exports = {
-    query: (text, params) => pool.query(text, params),
+    query: (text, params) => pool.query(text, params), dbConnect
   };

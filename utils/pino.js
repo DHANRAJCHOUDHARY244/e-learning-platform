@@ -7,6 +7,7 @@ const logger = pino({
     },
     transport: {
         targets: [
+            //  -------------------------------- save logs in file
             // {
             //     target: 'pino-pretty',
             //     options: {
