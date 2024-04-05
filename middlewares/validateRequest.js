@@ -1,7 +1,6 @@
 const jwt = require('jsonwebtoken');
 const constants = require('../config/constants')
 
-const publicKey = require('fs').readFileSync('jwtrsa256.pub', 'utf8');
 
 module.exports = async function (req, res, next) {
     const token = (req.body && req.body.token) || (req.query && req.query.token) || req.headers['token'];
