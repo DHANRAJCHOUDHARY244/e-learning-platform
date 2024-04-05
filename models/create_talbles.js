@@ -1,30 +1,68 @@
 const logger = require('../utils/pino');
+const query = require('../config/database').query;
 
-const query = require('../config/database').query
+const tableQueries = [
+  {
+    name: 'users',
+    query: `
+      CREATE TABLE IF NOT EXISTS users (
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        email TEXT UNIQUE NOT NULL,
+        password TEXT NOT NULL,
+        first_name VARCHAR(255) NOT NULL,
+        last_name VARCHAR(255),
+        role TEXT[] DEFAULT ARRAY['user']
+      );
+    `,
+  },
+  {
+    name: 'courses',
+    query: `
+      CREATE TABLE IF NOT EXISTS courses (
+        id SERIAL PRIMARY KEY,
+        name VARCHAR(255) NOT NULL,
+        duration VARCHAR(255),
+        rating FLOAT,
+        description TEXT,
+        category TEXT[] DEFAULT ARRAY[],
+        instructor_name VARCHAR(255),
+        instructor_rating FLOAT,
+        instructor_description TEXT,
+        language VARCHAR(50),
+        tag VARCHAR(255),
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      );
+    `,
+  },
+  {
+    name: 'enrollments',
+    query: `
+      CREATE TABLE IF NOT EXISTS enrollments (
+        id SERIAL PRIMARY KEY,
+        user_id INT NOT NULL,
+        course_id INT NOT NULL,
+        enrollment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        status VARCHAR(50) NOT NULL,
+        FOREIGN KEY (user_id) REFERENCES users(id),
+        FOREIGN KEY (course_id) REFERENCES courses(id),
+        UNIQUE (user_id, course_id)
+      );
+    `,
+  },
+];
 
-const createUserTableQuery = `
-CREATE TABLE IF NOT EXISTS users (
-  id SERIAL PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
-  email TEXT UNIQUE NOT NULL,
-  password TEXT  NOT NULL,
-  first_name VARCHAR(255) NOT NULL,
-  last_name  VARCHAR(255),
-  role TEXT[] DEFAULT ARRAY['user']
-);
-`;
-
-// Create the users table if it doesn't exist
-async function createTable(Query) {
+// Create a table
+async function createTable(name, query) {
   try {
-    await query(Query);
-    logger.info('User table created successfully');
+    await query(query);
+    logger.info(`${name} table created successfully`);
   } catch (err) {
-    logger.error('Error creating user table:' + err);
+    logger.error(`Error creating ${name} table: ${err}`);
   }
 }
 
-
+// Create all tables
 exports.createTables = async () => {
-  await createTable(createUserTableQuery);
-}
+  await Promise.all(tableQueries.map(({ name, query }) => createTable(name, query)));
+};
