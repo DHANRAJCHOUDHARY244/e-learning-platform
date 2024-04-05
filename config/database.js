@@ -1,6 +1,6 @@
 const { Client } = require('pg');
 require('dotenv').config();
-const logger = require('../utils/pino')
+const logger = require('../utils/pino');
 let { PGHOST, PGDATABASE, PGUSER, PGPASSWORD } = process.env;
 
 const client = new Client({
@@ -15,7 +15,6 @@ const client = new Client({
 });
 
 async function dbConnect() {
-
   try {
     await client.connect();
     const result = await client.query('SELECT version()');
@@ -23,11 +22,13 @@ async function dbConnect() {
   } catch (err) {
     logger.error('Error executing query:', err);
   } finally {
-    await client.end();
+    // Do not call client.end() here, as it will close the connection
+    // and subsequent queries won't work
   }
 }
 
-
+// Export the query function directly
 module.exports = {
-  query: (text, params) => client.query(text, params), dbConnect
-}; 
+  query: (text, params) => client.query(text, params),
+  dbConnect
+};

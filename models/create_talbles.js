@@ -1,5 +1,5 @@
 const logger = require('../utils/pino');
-const query = require('../config/database').query;
+const Query = require('../config/database').query;
 
 const tableQueries = [
   {
@@ -19,21 +19,21 @@ const tableQueries = [
   {
     name: 'courses',
     query: `
-      CREATE TABLE IF NOT EXISTS courses (
-        id SERIAL PRIMARY KEY,
-        name VARCHAR(255) NOT NULL,
-        duration VARCHAR(255),
-        rating FLOAT,
-        description TEXT,
-        category TEXT[] DEFAULT ARRAY[],
-        instructor_name VARCHAR(255),
-        instructor_rating FLOAT,
-        instructor_description TEXT,
-        language VARCHAR(50),
-        tag VARCHAR(255),
-        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-      );
-    `,
+    CREATE TABLE IF NOT EXISTS courses (
+      id SERIAL PRIMARY KEY,
+      name VARCHAR(255) NOT NULL,
+      duration VARCHAR(255),
+      rating FLOAT,
+      description TEXT,
+      category TEXT[] DEFAULT '{}'::TEXT[],
+      instructor_name VARCHAR(255),
+      instructor_rating FLOAT,
+      instructor_description TEXT,
+      language VARCHAR(50),
+      tag VARCHAR(255),
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    );
+  `,
   },
   {
     name: 'enrollments',
@@ -55,7 +55,7 @@ const tableQueries = [
 // Create a table
 async function createTable(name, query) {
   try {
-    await query(query);
+    await Query(query);
     logger.info(`${name} table created successfully`);
   } catch (err) {
     logger.error(`Error creating ${name} table: ${err}`);
@@ -66,3 +66,4 @@ async function createTable(name, query) {
 exports.createTables = async () => {
   await Promise.all(tableQueries.map(({ name, query }) => createTable(name, query)));
 };
+
