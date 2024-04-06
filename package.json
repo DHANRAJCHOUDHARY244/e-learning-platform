@@ -5,6 +5,12 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
+    "cluster-mode": "pm2 start server.js -i 0",
+    "cluster-mode-foreground": "pm2 start  --no-daemon server.js -i 0",
+    "stop-cluster": "pm2 stop all",
+    "delete-cluster": "pm2 delete all",
+    "list-clusters": "pm2 list",
+    "monitor-cluster": "pm2 monit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +39,7 @@
     "resend": "^3.2.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "pm2": "^5.3.1"
   }
 }

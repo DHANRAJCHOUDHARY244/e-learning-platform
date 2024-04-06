@@ -1,15 +1,15 @@
-const { Login, Register } = require('../../../validations/auth/authValidation');
+const { Login, Register, ForgetPassword, VerifyOtpUpdatePassword } = require('../../../validations/auth/authValidation');
 
-class AuthValidationMiddleware {
-    loginValidation(req, res, next) {
-        const { value, error } = Login(req.body);
-        if (err) return next(error)
+function validationMiddleware(validationFunction) {
+    return (req, res, next) => {
+        const { value, error } = validationFunction(req.body);
+        if (error) return next(error)
         req.body = value
-    }
-
-    registerValidation(req, res, next) {
-        const { value, error } = Register(req.body);
-        if (err) return next(error)
-        req.body = value
-    }
+        next();
+    };
 }
+
+exports.LoginValidation = validationMiddleware(Login)
+exports.RegisterValidation = validationMiddleware(Register)
+exports.ForgetPasswordValidation = validationMiddleware(ForgetPassword)
+exports.VerifyOtpUpdatePasswordValidation = validationMiddleware(VerifyOtpUpdatePassword)

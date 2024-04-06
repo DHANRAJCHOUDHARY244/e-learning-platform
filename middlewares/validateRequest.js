@@ -1,13 +1,12 @@
 const jwt = require('jsonwebtoken');
 const constants = require('../config/constants')
 
-const publicKey = require('fs').readFileSync('jwtrsa256.pub', 'utf8');
 
 module.exports = async function (req, res, next) {
     const token = (req.body && req.body.token) || (req.query && req.query.token) || req.headers['token'];
     if (token) {
         try {
-            await jwt.verify(token, publicKey, { algorithms: ['RS256'] }, (err, decoded) => {
+            await jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
                 if (err) return res.status(constants.forbidden_code)
                     .json({
                         'status': constants.forbidden_code,
