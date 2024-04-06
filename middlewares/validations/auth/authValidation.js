@@ -1,4 +1,4 @@
-const { Login, Register } = require('../../../validations/auth/authValidation');
+const { Login, Register, ForgetPassword, VerifyOtpUpdatePassword } = require('../../../validations/auth/authValidation');
 
 function validationMiddleware(validationFunction) {
     return (req, res, next) => {
@@ -11,3 +11,5 @@ function validationMiddleware(validationFunction) {
 
 exports.LoginValidation = validationMiddleware(Login)
 exports.RegisterValidation = validationMiddleware(Register)
+exports.ForgetPasswordValidation = validationMiddleware(ForgetPassword)
+exports.VerifyOtpUpdatePasswordValidation = validationMiddleware(VerifyOtpUpdatePassword)

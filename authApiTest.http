@@ -3,10 +3,9 @@ POST http://localhost:3005/api/auth/reg
 Content-Type: application/json
 
 {
-    "email":"admin@admin.com",
+    "email":"choudharydhanraj239@gmail.com",
     "password":"Admin@123",
-    "first_name":"dhanraj",
-    "Hii":"hii"
+    "first_name":"dhanraj"
 }
  
 ###  Login
@@ -15,5 +14,23 @@ Content-Type: application/json
 
 {
     "email":"admin@admin.com",
-    "password":"admin@123"
+    "password":"Admin$123"
+}
+
+### forget password
+POST http://localhost:3005/api/auth/forget-password
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com"
+}
+
+### verify otp and password password
+PUT http://localhost:3005/api/auth/verify-otp-update
+Content-Type: application/json
+
+{
+    "email":"admin@admin.com",
+    "password":"Admin$123",
+    "otp":"877122"
 }

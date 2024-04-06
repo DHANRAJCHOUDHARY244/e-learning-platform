@@ -17,7 +17,7 @@ async function createUser(userData) {
 
 async function getUsers(email) {
     try {
-        return (await query(`SELECT * FROM users where email=$1`, [email])).rows;
+        return (await query(`SELECT * FROM users where email=$1`, [email])).rows[0];
     } catch (err) {
         logger.error('getUser model/user  Error getting users: ' + err);
         throw new Error('Something went wrong!🙁 Error getting users:');
@@ -37,7 +37,7 @@ async function updateUser(id, updates) {
 
 async function deleteUser(id) {
     try {
-        await query('DELETE FROM users WHERE id = $1', [id]);
+        (await query('DELETE FROM users WHERE id = $1', [id])).rows[0];
     } catch (err) {
         logger.error('Error deleting user: ' + err);
         throw new Error('Something went wrong!🙁 Error deleting user:');
