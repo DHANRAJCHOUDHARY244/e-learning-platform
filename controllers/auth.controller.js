@@ -2,7 +2,7 @@ const { resource_not_found, forbidden_code, success_code, server_error_code, res
 const { getOtp, updateOtp, createOtp, deleteOtp } = require('../models/otp.model');
 const { getUsers, createUser, updateUser } = require('../models/user.model');
 const { sendEmailRegistration, sendEmailForgetPassword } = require('../services/email.service');
-const { sendError, ReS, generateOTP } = require('../services/generalHelper.service');
+const { sendError, ReS, generateOTP, generateToken } = require('../services/generalHelper.service');
 const { hashPassword, verifyPassword } = require('../services/passwordHashing.service');
 
 const login = async (req, res) => {
@@ -12,7 +12,8 @@ const login = async (req, res) => {
         if (!user) return sendError(res, resource_not_found, '😞! User Not Found Please Register')
         const verifyUser = await verifyPassword(password, user.password)
         if (!verifyUser) return sendError(res, forbidden_code, 'Forbidden 😞! Please put correct email or password')
-        return ReS(res, success_code, '😊Hurry! You are login Successfully!')
+        const token = await generateToken(user)
+        return ReS(res, success_code, '😊Hurry! You are login Successfully!', { token })
     } catch (error) {
         return sendError(res, server_error_code, 'Internal Server Error!😞')
     }
@@ -24,9 +25,10 @@ const register = async (req, res) => {
         if ((await getUsers(userData.email))) return sendError(res, conflict_code, 'User already exists! 😊')
         const passwordHash = await hashPassword(userData.password)
         userData.password = passwordHash;
-        await createUser(userData)
+        const user = await createUser(userData)
+        const token = await generateToken(user);
         await sendEmailRegistration(userData.email)
-        ReS(res, resource_created, '😊Hurry! You are registered Successfully')
+        ReS(res, resource_created, '😊Hurry! You are registered Successfully', { token })
     } catch (error) {
         return sendError(res, server_error_code, 'Internal Server Error!😞')
     }
