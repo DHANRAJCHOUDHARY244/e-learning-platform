@@ -23,6 +23,14 @@ async function getUsers(email) {
         throw new Error('Something went wrong!🙁 Error getting users:');
     }
 }
+async function getUserById(id) {
+    try {
+        return (await query(`SELECT * FROM users where id=$1`, [id])).rows[0];
+    } catch (err) {
+        logger.error('getUser model/user  Error getting users: ' + err);
+        throw new Error('Something went wrong!🙁 Error getting users:');
+    }
+}
 
 async function updateUser(id, updates) {
     try {

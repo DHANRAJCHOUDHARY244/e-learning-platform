@@ -1,5 +1,6 @@
 const express = require('express')
 const morgan = require('morgan')
+const fileUpload = require('express-fileupload');
 require('dotenv').config()
 const cors = require('cors')
 const logger = require('./utils/pino')
@@ -17,6 +18,10 @@ express.application.prefix = express.Router.prefix = function (path, configure) 
 };
 
 const app = express();
+app.use(fileUpload({
+    useTempFiles: true
+}))
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('dev'));
@@ -28,6 +33,8 @@ app.use((err, req, res, next) => {
     logger.error(err.stack)
     sendError(res, server_error_code, err.stack)
 })
+
+
 
 dbConnect()
 createTables()
