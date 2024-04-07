@@ -1,6 +1,7 @@
 module.exports = {
     'success_code': 200,
     'resource_created': 201,
+    'no_content': 204,
     'unauthorized_code': 401,
     'forbidden_code': 403,
     'bad_request_code': 400,

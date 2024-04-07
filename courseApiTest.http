@@ -1,0 +1,25 @@
+### find course by id
+GET  http://localhost:3005/api/course/1
+
+### find course by id
+GET  http://localhost:3005/api/course/all
+
+### find courses by filters
+GET  http://localhost:3005/api/course/filters
+Content-Type: application/json
+
+{
+   "name":"dj",
+   "tag":["c","java"],
+   "category":[]
+}
+
+###  create course
+GET  http://localhost:3005/api/course/filters
+Content-Type: application/json
+
+{
+   "name":"dj",
+   "tag":["c","java"],
+   "category":[]
+}

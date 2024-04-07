@@ -16,7 +16,7 @@ app.prefix('/api/user', (router) => {
     router.use('/', userRoute)
 })
 
-app.prefix('/api/courese', (router) => {
+app.prefix('/api/course', (router) => {
     const courseRoute = require('./course.routes');
     router.use('/', courseRoute)
 })

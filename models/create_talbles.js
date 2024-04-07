@@ -23,15 +23,13 @@ const tableQueries = [
       id SERIAL PRIMARY KEY,
       name VARCHAR(255) NOT NULL,
       duration VARCHAR(255),
-      rating FLOAT,
+      rating FLOAT DEFAULT 0,
       description TEXT,
       category TEXT[] DEFAULT '{}'::TEXT[],
-      instructor_name VARCHAR(255),
-      instructor_rating FLOAT,
-      instructor_description TEXT,
+      instructor_id INT REFERENCES users(id),
       language VARCHAR(50),
-      tag VARCHAR(255),
-      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      tag TEXT[],
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
     );
   `,
   },
