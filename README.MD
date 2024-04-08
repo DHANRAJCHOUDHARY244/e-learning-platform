@@ -215,6 +215,7 @@ ADMIN_PASSWORD='Admin$123%4654'
 ├── package.json            # Contains all the packages information
 └── README.md               # Documentation of code
 
+```
 
 ### Pagination
 
