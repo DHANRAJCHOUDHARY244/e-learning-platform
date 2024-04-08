@@ -13,8 +13,8 @@
 
 <div style="display:flex;justify-content:center;padding:10px;">
 <img src="./logo.png" height="100" width="100" style="border-radius:50%"/>
-</div>
 A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, offering a wide range of features for course management, user authentication, enrollment, and more.
+</div>
 
 ## Table of Contents
 
