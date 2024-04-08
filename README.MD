@@ -11,7 +11,9 @@
 ```
 # E-Learning Platform
 
+<div style="display:flex;justify-content:center;padding:10px;">
 <img src="./logo.png" height="100" width="100" style="border-radius:50%"/>
+</div>
 A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, offering a wide range of features for course management, user authentication, enrollment, and more.
 
 ## Table of Contents
@@ -37,7 +39,7 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/e-learning-platform.git
+   git clone https://github.com/DHANRAJCHOUDHARY244/e-learning-platform.git
    ```
 
 2. Install dependencies:
@@ -47,12 +49,43 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
 
 3. Create a `.env` file in the root directory with the following environment variables:
    ```env
-   PORT=3000
-   DATABASE_URL=your_postgres_database_url
-   JWT_SECRET=your_jwt_secret
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+# ---------- Do not expose  Neon Database credentials to the browser------
+PGHOST=
+</br>
+PGDATABASE=
+</br>
+PGUSER=
+</br>
+PGPASSWORD=
+</br>
+ENDPOINT_ID=
+# ------------end-------------
+PORT=3005
+</br>
+JWT_SECRET=
+# ------- resend email configration -----
+RESEND_EMAIL_API_KEY= </br>
+RESEND_EMAIL_FROM=
+#  ---------End-----------
+
+# ---------- nodemailer email configration-----
+NODEMAILER_EMAIL_API_KEY=</br>
+NODEMAILER_EMAIL_FROM=
+# -----------End-------------
+#  ---------Cloudinary----------
+CLOUDINARY_NAME=
+</br>
+CLOUDINARY_API_KEY=
+</br>
+CLOUDINARY_API_SECRET=
+</br>
+# ----------------        End       --------------
+#  ------------ Super Admin data --------------
+ADMIN_EMAIL=
+</br>
+ADMIN_PASSWORD=
+# ----------End-----------
    ```
 
 4. Start the development server:
