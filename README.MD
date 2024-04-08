@@ -48,45 +48,32 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
    ```
 
 3. Create a `.env` file in the root directory with the following environment variables:
-   ```env
 
-#### ` Do not expose  Neon Database credentials to the browser `
-PGHOST=
-</br>
-PGDATABASE=
-</br>
-PGUSER=
-</br>
-PGPASSWORD=
-</br>
-ENDPOINT_ID=
-</br>
-####
+#### All are dummy env keys please use your own
+
+```ini
+
+PGHOST=lmk
+PGDATABASE=lnjnau
+PGUSER=nnkkln
+PGPASSWORD=lkkl
+ENDPOINT_ID=jhbdhvewfj
 PORT=3005
-</br>
-JWT_SECRET=
-###  `resend email configration `
-RESEND_EMAIL_API_KEY= </br>
-RESEND_EMAIL_FROM=
-#### `nodemailer email configration`
-NODEMAILER_EMAIL_API_KEY=</br>
-NODEMAILER_EMAIL_FROM=
-#### `Cloudinary`
-CLOUDINARY_NAME=
-</br>
-CLOUDINARY_API_KEY=
-</br>
-CLOUDINARY_API_SECRET=
-####  `-Super Admin data -`
-ADMIN_EMAIL=
-</br>
-ADMIN_PASSWORD=
-#### `------end-----`
-   ```
+JWT_SECRET=lnefanwrn478yc9mup409809978^%^&$%^$%^#
+RESEND_EMAIL_API_KEY=khbkwiu8768789
+RESEND_EMAIL_FROM='choudharydhanraj239@gmail.com'
+NODEMAILER_EMAIL_API_KEY='kjnfekwjankjaefwniu4h87y'
+NODEMAILER_EMAIL_FROM='choudharydhanraj239@gmail.com'
+CLOUDINARY_NAME='cloudinary name'
+CLOUDINARY_API_KEY='clodinaryapikey'
+CLOUDINARY_API_SECRET='clodinarysecret' 
+ADMIN_EMAIL='choudharydhanraj239@gmail.com'
+ADMIN_PASSWORD='Admin$123%4654'
+```
 
 4. Start the development server:
    ```sh
-   npm run dev
+   npm start
    ```
 
 ## Technologies Used
@@ -114,7 +101,7 @@ ADMIN_PASSWORD=
 - **Register**: Users can create a new account.
 - **Login**: Existing users can log in to their accounts.
 - **Forget Password**: Users can reset their password through email verification.
-- **Verify Email**: Email verification for newly registered users.
+- **Verify Email**: Otp Email verification for forgot and reset password.
 
 ### Course Management
 
@@ -184,7 +171,3 @@ We welcome contributions to the project. To contribute, please follow these step
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this description to better fit your project and its specific features and requirements.
