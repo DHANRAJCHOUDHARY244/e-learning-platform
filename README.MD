@@ -1,6 +1,3 @@
-# E-Learning Platform
-
-<img src="./logo.png" height="100" width="100" style="border-radius:50%"/>
 ```
 
   ______          _       ______            _____   _   _  _____  _   _   _____      _____   _              _______  ______  ______  ____   _____   __  __ 
@@ -12,6 +9,9 @@
                                                                                                                                                        
 
 ```
+# E-Learning Platform
+
+<img src="./logo.png" height="100" width="100" style="border-radius:50%"/>
 A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, offering a wide range of features for course management, user authentication, enrollment, and more.
 
 ## Table of Contents
