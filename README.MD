@@ -9,12 +9,19 @@
                                                                                                                                                        
 
 ```
-# E-Learning Platform
+# `E-Learning Platform`
 
-<div style="display:flex;justify-content:center;padding:10px;">
+<div align="center">
 <img src="./logo.png" height="100" width="100" style="border-radius:50%"/>
 </div>
+<div align="center">
 A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, offering a wide range of features for course management, user authentication, enrollment, and more.
+</div>
+
+<div align="center">
+  <h1>Dhanraj Choudhary</h1>
+  <p><a href="mailto:choudharydhanraj239@gmail.com">choudharydhanraj239@gmail.com</a></p>
+</div>
 
 
 [![Downloads](https://img.shields.io/github/downloads/DHANRAJCHOUDHARY244/e-learning-platform/total)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/releases)
