@@ -41,6 +41,7 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
   - [Logging with Pino and Morgan](#logging-with-pino-and-morgan)
   - [File Upload and Cloudinary](#file-upload-and-cloudinary)
   - [Email Integration](#email-integration)
+  -[Grouping Routes](#grouping-routes )
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -161,6 +162,69 @@ For file upload and management, the platform uses Cloudinary. Cloudinary provide
 
 - **Email Sending**: The platform uses either resend or nodemailer for sending emails, such as user registration confirmation, password reset requests, and course enrollment notifications.
 
+### Grouping Routes 
+## `express.application.prefix`
+
+In this project, we use the `express.application.prefix` configuration to group routes in our Express application. This allows us to define a common prefix for a group of related routes, making our code more organized and easier to maintain.
+
+
+```javascript
+express.application.prefix = express.Router.prefix = function (path, configure) {
+    const router = express.Router();
+    this.use(process.env.EXPRESS_APPLICATION_PREFIX + path, router);
+    configure(router);
+    return router;
+};
+
+```
+### How it works
+
+We have defined a custom function that takes two arguments: `path` and `configure`. Inside this function, we create a new Express router and use the `express.application.prefix` environment variable to set the prefix for this router.
+
+Here's an example of how we use the custom function to group routes:
+
+```javascript
+const express = require('express')
+
+const app = express();
+
+
+
+app.prefix('/api/auth', (router) => {
+    const authRoute = require('./auth.routes');
+    router.use('/', authRoute)
+})
+
+app.prefix('/api/user', (router) => {
+    const userRoute = require('./user.routes');
+    router.use('/', userRoute)
+})
+
+app.prefix('/api/course', (router) => {
+    const courseRoute = require('./course.routes');
+    router.use('/', courseRoute)
+})
+
+app.prefix('/api/enrollment', (router) => {
+    const enrollmentRoute = require('./enrollment.routes');
+    router.use('/', enrollmentRoute)
+})
+```
+
+In this example, all routes related to user management are grouped under the `/users` prefix, and all routes related to course management are grouped under the `/courses` prefix.
+
+### Benefits of Route Grouping
+
+- **Organized Code**: Grouping routes with a common prefix helps us organize our code and makes it easier to understand the structure of our application.
+- **Modular Design**: Route grouping allows us to modularize our application by separating different parts of the API into distinct groups.
+- **Simplifies Route Definitions**: By defining a prefix once for a group of routes, we can avoid repeating the prefix for each individual route.
+
+### Changing the Prefix
+
+To change the route prefix, simply update the `EXPRESS_APPLICATION_PREFIX` environment variable in your `.env` file and restart the server. The new prefix will be applied to all routes defined using the custom function.
+
+
+
 ## Usage
 
 1. Register a new account or login.
@@ -182,4 +246,4 @@ We welcome contributions to the project. To contribute, please follow these step
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+
