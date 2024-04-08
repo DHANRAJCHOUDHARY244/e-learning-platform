@@ -16,6 +16,16 @@
 </div>
 A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, offering a wide range of features for course management, user authentication, enrollment, and more.
 
+
+[![Downloads](https://img.shields.io/github/downloads/DHANRAJCHOUDHARY244/e-learning-platform/total)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/releases)
+[![Contributors](https://img.shields.io/github/contributors/DHANRAJCHOUDHARY244/e-learning-platform?color=dark-green)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/DHANRAJCHOUDHARY244/e-learning-platform?style=social)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/network/members)
+[![Stargazers](https://img.shields.io/github/stars/DHANRAJCHOUDHARY244/e-learning-platform?style=social)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/stargazers)
+[![Issues](https://img.shields.io/github/issues/DHANRAJCHOUDHARY244/e-learning-platform)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/issues)
+[![License](https://img.shields.io/github/license/DHANRAJCHOUDHARY244/e-learning-platform)](https://github.com/DHANRAJCHOUDHARY244/e-learning-platform/blob/master/LICENSE)
+
+
+
 ## Table of Contents
 
 - [Installation](#installation)
