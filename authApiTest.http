@@ -3,7 +3,7 @@ POST http://localhost:3005/api/auth/reg
 Content-Type: application/json
 
 {
-    "email":"choudharydhanraj239@gmail.com",
+    "email":"webdevsetup239@gmail.com",
     "password":"Admin@123",
     "first_name":"dhanraj"
 }
@@ -22,7 +22,7 @@ POST http://localhost:3005/api/auth/forget-password
 Content-Type: application/json
 
 {
-    "email":"choudharydhanraj239@gmail.com"
+    "email":"webdevsetup239@gmail.com"
 }
 
 ### verify otp and password password

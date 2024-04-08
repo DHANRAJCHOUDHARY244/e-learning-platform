@@ -5659,3 +5659,840 @@
 [ Date 07/04/24 18:57:05] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
     processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
     processId: "P_ID:- 2424"
+[ Date 07/04/24 19:48:19] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:48:19] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6700"
+[ Date 07/04/24 19:52:47] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:52:47] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2220"
+[ Date 07/04/24 19:55:33] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:55:33] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3764"
+[ Date 07/04/24 19:56:11] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:11] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 15504"
+[ Date 07/04/24 19:56:21] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:56:21] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6900"
+[ Date 07/04/24 19:57:01] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 19:57:01] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2848"
+[ Date 07/04/24 20:00:05] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:00:05] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:01:11] INFO: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14104"
+[ Date 07/04/24 20:03:12] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:03:12] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 19836"
+[ Date 07/04/24 20:09:07] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:07] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:09:13] INFO: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:10:09] INFO: {"message":"Email Sent SuccessFully","success":true}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:14:55] INFO: {"message":"Email Sent SuccessFully","success":true}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:17:03] INFO: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:17:55] INFO: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:18:13] INFO: {"message":"Email Sent SuccessFully","success":true}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17136"
+[ Date 07/04/24 20:21:16] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:21:16] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7460"
+[ Date 07/04/24 20:22:03] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:03] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:12] INFO: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 07/04/24 20:22:41] INFO: {"message":"Email Sent SuccessFully","success":true}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 20972"
+[ Date 08/04/24 11:38:00] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:00] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:38:11] INFO: {"message":"Email Sent SuccessFully","success":true}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6016"
+[ Date 08/04/24 11:41:47] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:47] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:59] ERROR: Error: [object Object]
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:41:59] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1300"
+[ Date 08/04/24 11:42:37] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:37] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:43] ERROR: {}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:42:43] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10292"
+[ Date 08/04/24 11:43:03] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:03] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:10] ERROR: SyntaxError: Unexpected token 'E', "Error: [ob"... is not valid JSON
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12812"
+[ Date 08/04/24 11:43:41] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:41] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:43:48] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3732"
+[ Date 08/04/24 11:44:23] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:23] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:34] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9284"
+[ Date 08/04/24 11:44:48] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:44:48] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:45:02] ERROR: SyntaxError: Unexpected token 'E', "Error: [ob"... is not valid JSON
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:45:06] ERROR: SyntaxError: Unexpected token 'E', "Error: [ob"... is not valid JSON
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13852"
+[ Date 08/04/24 11:45:20] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:20] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2400"
+[ Date 08/04/24 11:45:26] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:26] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:33] ERROR: [object Object]
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:45:33] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7164"
+[ Date 08/04/24 11:46:01] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:01] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 188"
+[ Date 08/04/24 11:46:08] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:08] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:30] ERROR:
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:30] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4560"
+[ Date 08/04/24 11:46:39] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:46:39] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12964"
+[ Date 08/04/24 11:47:05] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:05] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:15] ERROR:
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:47:15] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3240"
+[ Date 08/04/24 11:48:20] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:20] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2, compiled by Visual C++ build 1937, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:29] ERROR: Something went wrong!😞Error: [object Object]
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:48:29] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:50:18] ERROR: Something went wrong!😞Error: [object Object]
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"
+[ Date 08/04/24 11:50:18] INFO: {"message":"Something went wrong!😞","error":{},"success":false}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 1648"

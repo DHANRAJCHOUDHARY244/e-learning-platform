@@ -7,7 +7,7 @@ const logger = require('../utils/pino');
 const sendEmailRegistration = async (email) => {
     try {
         const template = await emailTemplate(await registrationContent(email));
-        const resp = sendEmail(email, 'Registered E-learning plateform', template);
+        const resp = sendEmail(email, 'Enrolled new course', template);
         logger.info(JSON.stringify(resp));
         return { ...resp };
     } catch (error) {

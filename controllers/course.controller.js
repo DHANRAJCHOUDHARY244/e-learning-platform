@@ -9,7 +9,7 @@ const createNewCourse = async (req, res) => {
         courseData = { ...courseData, instructor_id: user.id }
         if ((await getCourseByName(courseData.name))) return sendError(res, conflict_code, 'Course already exists! 😊');
         await createCourse(courseData);
-        return ReS(res, success_code, '😊Hurry! Congratulation for your Successfully registered new course!', { token })
+        return ReS(res, resource_created, '😊Hurry! Congratulation for your Successfully registered new course!')
     } catch (error) {
         return sendError(res, server_error_code, 'Internal Server Error!😞')
     }

@@ -15,11 +15,12 @@ Content-Type: application/json
 }
 
 ###  create course
-GET  http://localhost:3005/api/course/filters
+POST   http://localhost:3005/api/course/create
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJjaG91ZGhhcnlkaGFucmFqMjM5QGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFFaakhMeTVBci5uLkZBcS50MklaZU81Y1YzMW41alc3T0d4Zk9IU2ZWNmMyYTVCTnYvUzFHIiwicHJvZmlsZV9pbWdfdXJsIjoiaHR0cDovL3Jlcy5jbG91ZGluYXJ5LmNvbS9kdml5eXB5ZWcvaW1hZ2UvdXBsb2FkL3YxNzEyNDM3ODE0L2xjeXhidnFwaXBxb3dhbG9waHJrLmpwZyIsImZpcnN0X25hbWUiOiJkaGFucmFqIiwibGFzdF9uYW1lIjoiY2hvdWRoYXJ5IGphdCIsInJvbGUiOlsidXNlciJdLCJpYXQiOjE3MTI0OTk1MTAsImV4cCI6MTcxMjUwMzExMH0.JTMMvEBdmscPm57k0fRphm7p5csXj38htMr3FvCFiM8
 Content-Type: application/json
 
 {
-   "name":"dj",
+   "name":"dj111s",
    "tag":["c","java"],
-   "category":[]
+   "category":["hii"]
 }

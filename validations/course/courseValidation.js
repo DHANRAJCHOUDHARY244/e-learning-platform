@@ -5,7 +5,7 @@ class CourseValidation {
         const schema = joi.object({
             name: joi.string().required(),
             duration: joi.string(),
-            rating: joi.number().min(0).max(5),
+            rating: joi.number().min(0).max(5).optional(),
             description: joi.string().optional(),
             category: joi.array().items(joi.string().optional()).optional(),
             language: joi.string().optional(),
