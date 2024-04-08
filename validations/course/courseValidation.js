@@ -27,7 +27,7 @@ class CourseValidation {
     }
     getCouresByFilters(params) {
         const schema = joi.object({
-            name: joi.string().optional(),
+            name: joi.string().empty('').optional(),
             category: joi.array().items(joi.string().optional()).optional(),
             tag: joi.array().items(joi.string().optional()).optional()
         })

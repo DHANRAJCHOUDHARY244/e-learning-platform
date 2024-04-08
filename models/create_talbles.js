@@ -1,4 +1,7 @@
+const { query } = require('../config/database');
+const { hashPassword } = require('../services/passwordHashing.service');
 const logger = require('../utils/pino');
+const { getUsers } = require('./user.model');
 const Query = require('../config/database').query;
 
 const tableQueries = [
@@ -25,7 +28,7 @@ const tableQueries = [
       duration VARCHAR(255),
       rating FLOAT DEFAULT 0,
       description TEXT,
-      category TEXT[] DEFAULT '{}'::TEXT[],
+      category TEXT[], 
       instructor_id INT REFERENCES users(id),
       language VARCHAR(50),
       tag TEXT[],
@@ -53,7 +56,7 @@ const tableQueries = [
         user_id INT NOT NULL,
         course_id INT NOT NULL,
         enrollment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        status VARCHAR(50) NOT NULL,
+        status VARCHAR(50) DEFAULT 'ACTIVE',
         FOREIGN KEY (user_id) REFERENCES users(id),
         FOREIGN KEY (course_id) REFERENCES courses(id),
         UNIQUE (user_id, course_id)
@@ -77,3 +80,17 @@ exports.createTables = async () => {
   await Promise.all(tableQueries.map(({ name, query }) => createTable(name, query)));
 };
 
+exports.createAdmin = async () => {
+  try {
+    const password = process.env.ADMIN_PASSWORD
+    const email=process.env.ADMIN_EMAIL
+    if((await getUsers(email))) return logger.error('super Admin alredy created')
+    const role = ['user', 'superAdmin']
+    const passwordHash = await hashPassword(password)
+    const sql = `INSERT INTO users (email,password,first_name,last_name,role) VALUES ($1,$2,$3,$4,$5) RETURNING *`
+    const data = await query(sql, [email, passwordHash, 'super', 'admin', role])
+    logger.info(`Admin created successfully + ${data}`)
+  } catch (error) {
+    logger.error(`Error creating admin : ${error}`)
+  }
+}

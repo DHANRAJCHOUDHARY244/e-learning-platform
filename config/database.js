@@ -9,9 +9,9 @@ const client = new Client({
   user: PGUSER,
   password: PGPASSWORD,
   port: 5432,
-  // ssl: {
-  //   rejectUnauthorized: false, // You may need to adjust this based on your PostgreSQL server configuration
-  // },
+  ssl: {
+    rejectUnauthorized: false, // You may need to adjust this based on your PostgreSQL server configuration
+  },
 });
 
 async function dbConnect() {
@@ -20,7 +20,7 @@ async function dbConnect() {
     const result = await client.query('SELECT version()');
     logger.info('Connected to PostgreSQL database ' + JSON.stringify(result.rows[0]));
   } catch (err) {
-    logger.error('Error executing query:', err);
+    logger.error('Error executing query:'+ err);
   } finally {
     // Do not call client.end() here, as it will close the connection
     // and subsequent queries won't work

@@ -2,12 +2,13 @@ const { createNewCourse, updatePreviousCourse, getCourse, getCouresByFilters, re
 const { CreateNewCourse, UpdatePreviousCourseValidation, GetCouresByFiltersValidation } = require('../middlewares/validations/course/courseValidation');
 const router = require('express').Router();
 const validatRequest = require('../middlewares/validateRequest')
+const validateAdminRouteRequest=require('../middlewares/checkAdminRole')
 
-router.post('/create', validatRequest, CreateNewCourse, createNewCourse)
-router.put('/update/:id', UpdatePreviousCourseValidation, updatePreviousCourse)
+router.post('/create',validatRequest,validateAdminRouteRequest , CreateNewCourse, createNewCourse)
+router.put('/update/:id', validatRequest,validateAdminRouteRequest ,UpdatePreviousCourseValidation, updatePreviousCourse)
 router.get('/all', getCourses)
 router.get('/filters', GetCouresByFiltersValidation, getCouresByFilters)
 router.get('/:id', getCourse)
-router.delete('/remove/:id', removeCourse)
+router.delete('/remove/:id',validatRequest,validateAdminRouteRequest , removeCourse)
 
 module.exports = router

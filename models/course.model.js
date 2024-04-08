@@ -59,15 +59,19 @@ async function getCourseByName(course_name) {
 
 async function getCourseByFilter(name, tags, category) {
     try {
+      tags=tags?tags:[]
+      category=category?category:[]
+      name=name?name:null
         const sql = `
-           SELECT c.id, c.name, c.duration, c.rating, c.description, c.category,
-           c.instructor_id,  u.first_name as instructor_first_name,u.last_name as instructor_last_name, u.email as instructor_email, c.language, c.tag, c.created_at,
-           (SELECT COUNT(*) FROM enrollments e WHERE e.course_id = c.id) AS enrolled_students_count
-           FROM courses c
-           JOIN users u ON c.instructor_id = u.id
-           WHERE ($1::VARCHAR IS NULL OR c.name ILIKE '%' || $1::VARCHAR || '%')
-             AND ($2::TEXT[] = '{}' OR c.tag && $2::TEXT[])
-             AND ($3::TEXT[] = '{}' OR c.category && $3::TEXT[]);
+        SELECT c.id, c.name, c.duration, c.rating, c.description, c.category,
+        c.instructor_id, u.first_name as instructor_first_name, u.last_name as instructor_last_name, u.email as instructor_email, c.language, c.tag, c.created_at,
+        (SELECT COUNT(*) FROM enrollments e WHERE e.course_id = c.id) AS enrolled_students_count
+        FROM courses c
+        JOIN users u ON c.instructor_id = u.id
+        WHERE ($1::VARCHAR IS NULL OR c.name ILIKE '%' || $1::VARCHAR || '%')
+        AND ($2::TEXT[] = '{}' OR NULL OR c.tag && $2::TEXT[])
+        AND ($3::TEXT[] = '{}' OR NULL OR c.category && $3::TEXT[]);
+ 
       `
         return (await query(sql, [name, tags, category])).rows;
     } catch (err) {
