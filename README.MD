@@ -161,6 +161,32 @@ To improve the efficiency and security of the application, rate limiting is impl
 
 The platform uses Pino for logging to the console and saving logs to a logs folder. Morgan is also used for HTTP request logging, providing detailed information about each request.
 
+## Logging with Pino
+
+The project uses Pino for logging to the console and saving logs to a file. Pino is configured with the following options:
+
+- **Process Title and ID**: Included in log messages.
+- **Log Output**: Saved to `./logs/output.log`.
+- **Formatting**: Log messages are formatted with `pino-pretty`.
+- **Colorization**: Console logs are colorized.
+- **Timestamps**: Included in log messages.
+
+```javascript
+const pino = require('pino');
+const logger = pino({
+    base: { processTitle: `PTitle:- ${process.title}`, processId: `P_ID:- ${process.pid}` },
+    transport: {
+        targets: [
+            { target: 'pino-pretty', options: { destination: './logs/output.log', mkdir: true, colorize: false, include: "processTitle,processId,hostname,time,level", translateTime: "SYS: 'Date' dd/mm/yy HH:MM:ss" } },
+            { target: 'pino-pretty', options: { colorize: true, translateTime: 'SYS:dd/mm/yy HH:MM:ss', include: 'pid,hostname,time,level' } },
+        ],
+    }
+});
+module.exports = logger;
+```
+
+
+
 ### File Upload and Cloudinary
 
 For file upload and management, the platform uses Cloudinary. Cloudinary provides a robust API for uploading, storing, and retrieving files, making it easy to manage multimedia content.
