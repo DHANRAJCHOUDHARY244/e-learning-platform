@@ -42,6 +42,7 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
   - [Course Management](#course-management)
   - [Enrollment](#enrollment)
   - [Super Admin Features](#super-admin-features)
+  - [Folder and file Stucture](#folder-and-file-stucture)
   - [Clustering with PM2](#clustering-with-pm2)
   - [Pagination](#pagination)
   - [Express Rate Limiting](#express-rate-limiting)
@@ -148,6 +149,72 @@ ADMIN_PASSWORD='Admin$123%4654'
 - **Delete Cluster**: Delete all instances of the application running in cluster mode from PM2's process list.
 - **List Clusters**: List all instances of the application running in cluster mode, along with their status.
 - **Monitor Cluster**: Monitor the resource usage of all instances of the application running in cluster mode.
+
+### Folder and file Stucture
+
+```
+.
+├── config         
+│   ├── cloudinary.js             # cloudinary config
+│   ├── constants.js              # error codes
+│   └── database.js               # Logic of database connection
+│ 
+├── controllers         
+│   ├── auth.controller.js              # Logic of auth controllers
+│   ├── course.controller.js            # Logic of course controllers
+│   ├── user.controller.js              # Logic of user controllers
+│   └── enrollment.controller.js        # Logic of enrollments controllers
+│ 
+├── routes         
+│   ├── auth.routes.js             # Logic of auth routes
+│   ├── user.routes.js             # Logic of user routes
+│   ├── enrollments.routes.js      # Logic of enrollment routes
+│   ├── course.routes.js           # Logic of course routes
+│   └── index.js                   # Logic of grouping routes
+│ 
+├── models                             # contains all models logic
+│   ├── courses.model.js             
+│   ├── user.model.js             
+│   ├── enrollments.model.js      
+│   ├── otp.model.js           
+│   └── creatable_tables.js                  
+│  
+│  
+│  
+├── services                            # contains all common services logic
+│   ├── cloudinary.service.js             
+│   ├── email.service.js             
+│   ├── generalhelper.service.js.js      
+│   ├── ipratelimit.service.js           
+│   └── passwordhashing.service.js                  
+│  
+│  
+│  
+├── utils
+│   ├── email.js            # Nodemailer and Resend logic to send OTP via email
+│   ├── pino.js             # pino logic to save and logger and maintains the records of all logs
+│   └── startingfunc.js     # ascii char style print when server is start
+│
+├── middleware                 
+│   ├── validations         # it contains all joi validations middleware
+│   ├── checkadminrole.js   # it check user admin functionality middleware
+│   ├── ratelimit.js        # it contains logic of limit request middleware
+│   └── validaterequest.js  #  contains json web token logic
+│    
+├── templates                 
+│   └── contenttemplates.js   # Custom contents for different email send with func
+│   └── mailTemplate.js       # Custom HTML and CSS mail template for Nodemailer and resend
+│    
+├── validation               # joi validation schema logics
+│
+│
+├── .server.js              # logics of express server and assemble all module to cuppling with each other
+|
+├── .env                    # Contains confidential keys 
+├── .gitignore              # Git logic to ignore files 
+├── package.json            # Contains all the packages information
+└── README.md               # Documentation of code
+
 
 ### Pagination
 
