@@ -149,6 +149,15 @@ ADMIN_PASSWORD='Admin$123%4654'
 - **Delete Cluster**: Delete all instances of the application running in cluster mode from PM2's process list.
 - **List Clusters**: List all instances of the application running in cluster mode, along with their status.
 - **Monitor Cluster**: Monitor the resource usage of all instances of the application running in cluster mode.
+``` javascript
+    "cluster-mode": "pm2 start server.js -i 0",
+    "cluster-mode-foreground": "pm2 start  --no-daemon server.js -i 0",
+    "stop-cluster": "pm2 stop all",
+    "delete-cluster": "pm2 delete all",
+    "list-clusters": "pm2 list",
+    "monitor-cluster": "pm2 monit",
+```
+
 
 ### Folder and file Stucture
 
