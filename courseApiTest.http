@@ -1,11 +1,11 @@
 ### find course by id
 GET  http://localhost:3005/api/course/1
 
-### find course by id
+### get all courses
 GET  http://localhost:3005/api/course/all
 
 ### find courses by filters
-GET  http://localhost:3005/api/course/filters
+GET  http://localhost:3005/api/course/filters?page=1
 Content-Type: application/json
 
 {

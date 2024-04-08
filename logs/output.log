@@ -6226,3 +6226,900 @@
 [ Date 08/04/24 17:55:03] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
     processTitle: "PTitle:- C:\WINDOWS\system32\cmd.exe "
     processId: "P_ID:- 11168"
+[ Date 08/04/24 21:10:00] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:00] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:03] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:03] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:04] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:04] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:04] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:10:05] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9424"
+[ Date 08/04/24 21:20:09] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:09] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:18] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:19] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:19] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:20] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:20] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 21:20:21] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 3796"
+[ Date 08/04/24 22:48:21] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:48:21] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:48:27] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:48:33] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:48:40] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:49:04] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:49:05] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:49:08] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16532"
+[ Date 08/04/24 22:51:26] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:26] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:29] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:30] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:30] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:30] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:31] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:31] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11092"
+[ Date 08/04/24 22:51:35] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:35] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:39] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:39] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:39] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:40] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:40] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:51:40] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9140"
+[ Date 08/04/24 22:52:31] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:31] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:35] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:36] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:36] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:36] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:37] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:52:37] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5004"
+[ Date 08/04/24 22:54:48] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:48] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:52] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:52] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:52] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:53] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:53] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:54:53] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 316"
+[ Date 08/04/24 22:56:25] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:25] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:29] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:29] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:29] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:29] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:30] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:56:30] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 9624"
+[ Date 08/04/24 22:59:27] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:27] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:30] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:30] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:31] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:31] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:31] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 22:59:31] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:00:24] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:24] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:35] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:35] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:35] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:36] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:37] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:00:39] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 6192"
+[ Date 08/04/24 23:01:08] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:08] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:11] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:12] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:12] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:12] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:13] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:13] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4672"
+[ Date 08/04/24 23:01:16] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:16] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:19] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:19] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:20] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:20] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:20] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:20] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 10616"
+[ Date 08/04/24 23:01:25] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:25] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:28] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:28] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:28] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:29] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:29] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:30] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7316"
+[ Date 08/04/24 23:01:33] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:33] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:35] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:36] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:36] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:36] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:37] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:37] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 7472"
+[ Date 08/04/24 23:01:52] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4404"
+[ Date 08/04/24 23:01:52] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4404"
+[ Date 08/04/24 23:02:01] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4404"
+[ Date 08/04/24 23:02:01] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4404"
+[ Date 08/04/24 23:02:05] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:05] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:09] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:09] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:09] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:10] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:10] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:10] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 14600"
+[ Date 08/04/24 23:02:41] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:41] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:46] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:46] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:47] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:48] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:48] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:02:48] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13180"
+[ Date 08/04/24 23:03:01] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:01] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:08] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:09] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:09] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:09] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:10] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:11] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12248"
+[ Date 08/04/24 23:03:43] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:43] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:51] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:52] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:52] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:52] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:53] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:03:53] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12772"
+[ Date 08/04/24 23:04:17] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:17] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:31] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:32] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:32] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:32] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:33] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:04:34] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 13680"
+[ Date 08/04/24 23:06:24] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:24] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error executing query:error: Authentication timed out
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error creating users table: Error: Connection terminated unexpectedly
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error creating courses table: Error: Connection terminated unexpectedly
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error creating otp table: Error: Connection terminated unexpectedly
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error creating enrollments table: Error: Connection terminated unexpectedly
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: getUser model/user  Error getting users: Error: Connection terminated unexpectedly
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:06:51] ERROR: Error creating admin : Error: Something went wrong!🙁 Error getting users:
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 16468"
+[ Date 08/04/24 23:07:07] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2788"
+[ Date 08/04/24 23:07:07] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 2788"
+[ Date 08/04/24 23:07:56] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:07:56] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:07:58] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:07:59] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:07:59] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:07:59] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:08:00] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:08:00] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 5408"
+[ Date 08/04/24 23:08:51] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:51] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:53] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:53] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:54] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:54] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:54] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:08:55] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 12584"
+[ Date 08/04/24 23:09:11] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:11] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:14] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:14] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:14] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:15] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:15] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 08/04/24 23:09:15] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11044"
+[ Date 09/04/24 00:05:18] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:18] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:21] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:22] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:22] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:22] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:22] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:05:23] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 4856"
+[ Date 09/04/24 00:07:27] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:27] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:30] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:30] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:30] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:30] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:31] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:07:31] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 17116"
+[ Date 09/04/24 00:08:02] INFO: [36m
+    ==========================================================================================================================
+    ||      _____           _                          _               ____  _       _        __                            ||
+    ||     | ____|         | |    ___  __ _ _ __ _ __ (_)_ __   __ _  |  _ \| | __ _| |_ ___ / _| ___  _ __ _ __ ___        ||
+    ||     |  _|    _____  | |   / _ \/ _` | '__| '_ \| | '_ \ / _` | | |_) | |/ _` | __/ _ \ |_ / _ \| '__| '_ ` _ \       ||
+    ||     | |___  |_____| | |__|  __/ (_| | |  | | | | | | | | (_| | |  __/| | (_| | ||  __/  _| (_) | |  | | | | | |      ||
+    ||     |_____|         |_____\___|\__,_|_|  |_| |_|_|_| |_|\__, | |_|   |_|\__,_|\__\___|_|  \___/|_|  |_| |_| |_|      ||
+    ||                                                         |___/                                                        ||
+    ==========================================================================================================================
+    [0m
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:02] INFO: server running on port 3005
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:05] INFO: users table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:05] INFO: courses table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:06] INFO: otp table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:06] INFO: enrollments table created successfully
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:06] ERROR: super Admin alredy created
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"
+[ Date 09/04/24 00:08:07] INFO: Connected to PostgreSQL database {"version":"PostgreSQL 16.2 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit"}
+    processTitle: "PTitle:- C:\Windows\system32\cmd.exe "
+    processId: "P_ID:- 11612"

@@ -23,11 +23,29 @@ async function getUsers(email) {
         throw new Error('Something went wrong!🙁 Error getting users:');
     }
 }
+
 async function getUserById(id) {
     try {
         return (await query(`SELECT * FROM users where id=$1`, [id])).rows[0];
     } catch (err) {
         logger.error('getUser model/user  Error getting users: ' + err);
+        throw new Error('Something went wrong!🙁 Error getting users:');
+    }
+}
+
+async function getAllUsers(limit, offset) {
+    try {
+        return (await query(`SELECT id, email,profile_img_url,first_name,last_name FROM users  LIMIT $1 OFFSET $2`, [limit, offset])).rows;
+    } catch (err) {
+        logger.error('getAllUser model/user  Error getting users: ' + err);
+        throw new Error('Something went wrong!🙁 Error getting users:');
+    }
+}
+async function getAllUsersCount() {
+    try {
+        return (await query(`SELECT COUNT(*) AS total_count FROM users`)).rows[0];
+    } catch (err) {
+        logger.error('getAllUsersCount model/user  Error getting users: ' + err);
         throw new Error('Something went wrong!🙁 Error getting users:');
     }
 }
@@ -52,4 +70,12 @@ async function deleteUser(id) {
     }
 }
 
-module.exports = { createUser, getUsers, updateUser, deleteUser };
+module.exports = {
+    createUser,
+    getUsers,
+    updateUser,
+    deleteUser,
+    getAllUsers,
+    getAllUsersCount,
+    getUserById
+};

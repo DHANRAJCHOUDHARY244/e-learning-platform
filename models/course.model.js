@@ -15,9 +15,18 @@ async function createCourse(courseData) {
 }
 
 
-async function getAllCourses() {
+async function getAllCourses(limit, offset) {
     try {
-        return (await query(`SELECT * FROM courses;`)).rows;
+        return (await query(`SELECT * FROM courses LIMIT $1 OFFSET $2;`, [limit, offset])).rows;
+    } catch (err) {
+        logger.error('getAllCourses model/course  Error getting all courses: ' + err);
+        throw new Error('Something went wrong!🙁 Error getting all courses:');
+    }
+}
+
+async function getAllCoursesCount() {
+    try {
+        return (await query(`SELECT COUNT(*) AS total_count FROM courses ;`)).rows[0];
     } catch (err) {
         logger.error('getAllCourses model/course  Error getting all courses: ' + err);
         throw new Error('Something went wrong!🙁 Error getting all courses:');
@@ -57,11 +66,12 @@ async function getCourseByName(course_name) {
     }
 }
 
-async function getCourseByFilter(name, tags, category) {
+async function getCourseByFilter(name, tags, category, limit, offset) {
     try {
-      tags=tags?tags:[]
-      category=category?category:[]
-      name=name?name:null
+        tags = tags ? tags : [];
+        category = category ? category : [];
+        name = name ? name : null;
+
         const sql = `
         SELECT c.id, c.name, c.duration, c.rating, c.description, c.category,
         c.instructor_id, u.first_name as instructor_first_name, u.last_name as instructor_last_name, u.email as instructor_email, c.language, c.tag, c.created_at,
@@ -70,13 +80,33 @@ async function getCourseByFilter(name, tags, category) {
         JOIN users u ON c.instructor_id = u.id
         WHERE ($1::VARCHAR IS NULL OR c.name ILIKE '%' || $1::VARCHAR || '%')
         AND ($2::TEXT[] = '{}' OR NULL OR c.tag && $2::TEXT[])
-        AND ($3::TEXT[] = '{}' OR NULL OR c.category && $3::TEXT[]);
- 
-      `
-        return (await query(sql, [name, tags, category])).rows;
+        AND ($3::TEXT[] = '{}' OR NULL OR c.category && $3::TEXT[])
+        LIMIT $4 OFFSET $5;
+      `;
+
+        return (await query(sql, [name, tags, category, limit, offset])).rows;
     } catch (err) {
         logger.error('getCourseByFilter model/course  Error getting courses: ' + err);
         throw new Error('Something went wrong!🙁 Error getting courses:');
+    }
+}
+
+async function getCourseByFilterCount(name, tags, category) {
+    try {
+        tags = tags ? tags : [];
+        category = category ? category : [];
+        name = name ? name : null;
+
+        const sql = `
+        SELECT COUNT(*) AS total_count FROM courses c
+        WHERE ($1::VARCHAR IS NULL OR c.name ILIKE '%' || $1::VARCHAR || '%')
+        AND ($2::TEXT[] = '{}' OR NULL OR c.tag && $2::TEXT[])
+        AND ($3::TEXT[] = '{}' OR NULL OR c.category && $3::TEXT[]);
+      `;
+        return (await query(sql, [name, tags, category])).rows[0];
+    } catch (err) {
+        logger.error('getCourseByFilterCount model/course  Error getting courses count: ' + err);
+        throw new Error('Something went wrong!🙁 Error getting courses count:');
     }
 }
 
@@ -105,7 +135,9 @@ module.exports = {
     updateCourse,
     deleteCourse,
     getAllCourses,
+    getAllCoursesCount,
     getCourseById,
     getCourseByName,
     getCourseByFilter,
+    getCourseByFilterCount
 }

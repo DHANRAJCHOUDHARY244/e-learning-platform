@@ -1,5 +1,5 @@
 const { server_error_code, success_code, conflict_code, resource_not_found, no_content, resource_created } = require('../config/constants');
-const { getCourseByName, createCourse, updateCourse, getAllCourses, getCourseById, getCourseByFilter } = require('../models/course.model');
+const { getCourseByName, createCourse, updateCourse, getAllCourses, getCourseById, getCourseByFilter, getAllCoursesCount, getCourseByFilterCount } = require('../models/course.model');
 const { sendError, ReS } = require('../services/generalHelper.service');
 
 const createNewCourse = async (req, res) => {
@@ -27,9 +27,14 @@ const updatePreviousCourse = async (req, res) => {
 }
 const getCourses = async (req, res) => {
     try {
-        const courseData = await getAllCourses()
+        const page = req.query.page ? parseInt(req.query.page) : 1;
+        const limit = 10;
+        const offset = (page - 1) * limit;
+        const courseData = await getAllCourses(limit, offset);
         if (!courseData.length) return sendError(res, resource_not_found, 'No course found Empty course list!😞')
-        return ReS(res, success_code, '😊Courses are fetched successfully! ', { courseData })
+        const totalCourses = (await getAllCoursesCount()).total_count;
+        const totalPages = Math.ceil(totalCourses / limit);
+        return ReS(res, success_code, '😊Courses are fetched successfully! ', { courses: courseData, page: totalPages, limit: 10 })
     } catch (error) {
         return sendError(res, server_error_code, 'Internal Server Error!😞')
     }
@@ -49,11 +54,17 @@ const getCourse = async (req, res) => {
 const getCouresByFilters = async (req, res) => {
     try {
         const { name, tag, category } = req.body;
-        const courseData = await getCourseByFilter(name, tag, category)
+        const page = req.query.page ? parseInt(req.query.page) : 1;
+        const limit = 10;
+        const offset = (page - 1) * limit;
+        const courseData = await getCourseByFilter(name, tag, category, limit, offset)
         if (!courseData.length) return sendError(res, resource_not_found, 'No course found with these filters!😞')
-        return ReS(res, success_code, '😊Filtered Courses are fetched successfully! ', { courseData })
+        const totalCourses = (await getCourseByFilterCount(name, tag, category)).total_count;
+        const totalPages = Math.ceil(totalCourses / limit);
+        return ReS(res, success_code, '😊Filtered Courses are fetched successfully! ', { courses: courseData, page: totalPages, limit: 10 })
 
     } catch (error) {
+        console.log(error);
         return sendError(res, server_error_code, 'Internal Server Error!😞')
     }
 }

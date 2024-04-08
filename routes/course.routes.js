@@ -2,13 +2,14 @@ const { createNewCourse, updatePreviousCourse, getCourse, getCouresByFilters, re
 const { CreateNewCourse, UpdatePreviousCourseValidation, GetCouresByFiltersValidation } = require('../middlewares/validations/course/courseValidation');
 const router = require('express').Router();
 const validatRequest = require('../middlewares/validateRequest')
-const validateAdminRouteRequest=require('../middlewares/checkAdminRole')
+const validateAdminRouteRequest = require('../middlewares/checkAdminRole');
+const { validateIpRateLimit } = require('../middlewares/rateLimit');
 
-router.post('/create',validatRequest,validateAdminRouteRequest , CreateNewCourse, createNewCourse)
-router.put('/update/:id', validatRequest,validateAdminRouteRequest ,UpdatePreviousCourseValidation, updatePreviousCourse)
-router.get('/all', getCourses)
-router.get('/filters', GetCouresByFiltersValidation, getCouresByFilters)
-router.get('/:id', getCourse)
-router.delete('/remove/:id',validatRequest,validateAdminRouteRequest , removeCourse)
+router.post('/create', validatRequest, validateAdminRouteRequest, CreateNewCourse, createNewCourse)
+router.put('/update/:id', validatRequest, validateAdminRouteRequest, UpdatePreviousCourseValidation, updatePreviousCourse)
+router.get('/all', validateIpRateLimit(30, 150), getCourses)
+router.get('/filters', validateIpRateLimit(30, 150), GetCouresByFiltersValidation, getCouresByFilters)
+router.get('/:id', validateIpRateLimit(30, 80), getCourse)
+router.delete('/remove/:id', validatRequest, validateAdminRouteRequest, removeCourse)
 
 module.exports = router
