@@ -50,7 +50,7 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
 3. Create a `.env` file in the root directory with the following environment variables:
    ```env
 
-# ---------- Do not expose  Neon Database credentials to the browser------
+#### ` Do not expose  Neon Database credentials to the browser `
 PGHOST=
 </br>
 PGDATABASE=
@@ -60,32 +60,28 @@ PGUSER=
 PGPASSWORD=
 </br>
 ENDPOINT_ID=
-# ------------end-------------
+</br>
+####
 PORT=3005
 </br>
 JWT_SECRET=
-# ------- resend email configration -----
+###  `resend email configration `
 RESEND_EMAIL_API_KEY= </br>
 RESEND_EMAIL_FROM=
-#  ---------End-----------
-
-# ---------- nodemailer email configration-----
+#### `nodemailer email configration`
 NODEMAILER_EMAIL_API_KEY=</br>
 NODEMAILER_EMAIL_FROM=
-# -----------End-------------
-#  ---------Cloudinary----------
+#### `Cloudinary`
 CLOUDINARY_NAME=
 </br>
 CLOUDINARY_API_KEY=
 </br>
 CLOUDINARY_API_SECRET=
-</br>
-# ----------------        End       --------------
-#  ------------ Super Admin data --------------
+####  `-Super Admin data -`
 ADMIN_EMAIL=
 </br>
 ADMIN_PASSWORD=
-# ----------End-----------
+#### `------end-----`
    ```
 
 4. Start the development server:
