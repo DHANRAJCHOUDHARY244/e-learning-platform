@@ -41,7 +41,7 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
   - [Logging with Pino and Morgan](#logging-with-pino-and-morgan)
   - [File Upload and Cloudinary](#file-upload-and-cloudinary)
   - [Email Integration](#email-integration)
-  -[Grouping Routes](#grouping-routes )
+  - [Grouping Routes](#grouping-routes )
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
