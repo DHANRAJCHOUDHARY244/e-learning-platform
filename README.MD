@@ -115,9 +115,10 @@ ADMIN_PASSWORD='Admin$123%4654'
 - **jsonwebtoken** - For authentication.
 - **morgan** - For HTTP request logging.
 - **nodemailer** - For sending emails.
+- **resend** - For sending emails.
 - **pg** - PostgreSQL client for Node.js.
 - **pino** - For logging.
-- **prettier** - For code formatting.
+- **pino-preety** - For code formatting.
 - **nodemon** - For automatic server restarts in development.
 - **pm2** - For clustering and multi-threading in production.
 
