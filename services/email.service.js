@@ -1,4 +1,4 @@
-const { registrationContent, courseEnrollmentContent, forgetPasswordContent, resetPasswordContent } = require('../templates/contentEmail')
+const { registrationContent, courseEnrollmentContent, forgetPasswordContent, resetPasswordContent, customContent } = require('../templates/contentEmail')
 
 const emailTemplate = require('../templates/emailTemplate').emailTemplate
 const sendEmail = require('../utils/email').sendEmailNodemailer;
@@ -53,10 +53,22 @@ const sendEmailResetPassword = async (email, otp) => {
     }
 }
 
+const sendCustomEmail=async(email,content,subject)=>{
+    try {
+        const template = await emailTemplate(await customContent(email, content));
+        const resp = await sendEmail(email, subject, template);
+        logger.info(JSON.stringify(resp));
+        return { ...resp }
+    } catch (error) {
+        logger.error(`${error}`)
+        throw new Error(`'Internal Server Error!😞'+ ${error}`)
+    }
+}
 
 module.exports = {
     sendEmailRegistration,
     sendEmailCourseEnrollment,
     sendEmailForgetPassword,
-    sendEmailResetPassword
+    sendEmailResetPassword,
+    sendCustomEmail
 }

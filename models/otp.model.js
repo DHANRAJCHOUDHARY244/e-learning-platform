@@ -24,8 +24,9 @@ const createOtp = async (userId, otp) => {
 const getOtp = async (userId) => {
     try {
         await deleteExpireOtps()
-        return (await query('SELECT * FROM otp WHERE user_id = $1  AND expiration_time > NOW()',
-            [userId])).rows[0]
+        const data=(await query('SELECT * FROM otp WHERE user_id = $1  AND expiration_time > NOW()',
+        [userId])).rows[0]
+        return  data;
     } catch (error) {
         logger.error('GetOtp model/otp  Error getting otp: ' + error);
         throw new Error('Something went wrong!🙁 Failed to get otp');

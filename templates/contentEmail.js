@@ -74,9 +74,19 @@ const resetPasswordContent = (email, otp) => {
 `
 }
 
+const customContent = (email, content) => {
+    return grettingContent(email) + `<span
+    style="line-height: 22.4px;"> ${content.header} </span></strong ></span ></p >
+    <p style="line-height: 160%;"> </p>
+    <p style="line-height: 160%; text-align: left;"><span
+        style="font-size: 14px; line-height: 22.4px;">${content.description} </span></p>
+    <p style="line-height: 160%;"> </p>`
+}
+
 module.exports = {
     registrationContent,
     courseEnrollmentContent,
     forgetPasswordContent,
-    resetPasswordContent
+    resetPasswordContent,
+    customContent
 }

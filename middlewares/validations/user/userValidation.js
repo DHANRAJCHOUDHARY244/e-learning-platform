@@ -1,4 +1,4 @@
-const { updateProfile } = require('../../../validations/user/userValidation');
+const { updateProfile, verifyOtpUpdatePassword } = require('../../../validations/user/userValidation');
 
 function validationMiddleware(validationFunction) {
     return (req, res, next) => {
@@ -10,3 +10,4 @@ function validationMiddleware(validationFunction) {
 }
 
 exports.UpdateProfileValidation = validationMiddleware(updateProfile)
+exports.VerifyOtpUpdatePasswordValidation = validationMiddleware(verifyOtpUpdatePassword)

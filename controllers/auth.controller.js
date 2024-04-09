@@ -1,7 +1,7 @@
 const { resource_not_found, forbidden_code, success_code, server_error_code, resource_created, conflict_code } = require('../config/constants');
 const { getOtp, updateOtp, createOtp, deleteOtp } = require('../models/otp.model');
 const { getUsers, createUser, updateUser } = require('../models/user.model');
-const { sendEmailRegistration, sendEmailForgetPassword } = require('../services/email.service');
+const { sendEmailRegistration, sendEmailForgetPassword, sendCustomEmail } = require('../services/email.service');
 const { sendError, ReS, generateOTP, generateToken } = require('../services/generalHelper.service');
 const { hashPassword, verifyPassword } = require('../services/passwordHashing.service');
 
@@ -60,12 +60,19 @@ const verifyOtpUpdatePassword = async (req, res) => {
     try {
         const { email, otp, password } = req.body
         const userdata = await getUsers(email)
+        if (!userdata) return sendError(res, conflict_code, 'User Not exists! Please register! 😊')
         const otpData = await getOtp(userdata.id)
+        if (!otpData) return sendError(res, forbidden_code, 'It seem like otp expired or wrong otp ! 😞')
         if (otp != otpData.otp) return sendError(res, forbidden_code, 'It seem like otp expired or wrong otp ! 😞')
         else if (otp == otpData.otp) {
             const passwordHash = await hashPassword(password)
             await updateUser(userdata.id, { password: passwordHash })
             await deleteOtp(userdata.id)
+            const content={
+                header:`Password updated Successfully`,
+                description:"You are updated password successfully ! If you are not then report this to our security intelligence!"
+            }
+            await sendCustomEmail(userdata.email,content,`Password updated Successfully`)
             return ReS(res, resource_created, '😊Otp verified and updated password successfully! ')
         }
     } catch (error) {
