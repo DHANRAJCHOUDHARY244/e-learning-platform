@@ -19,8 +19,8 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
 </div>
 
 <div align="center">
-  <h1>Dhanraj Choudhary</h1>
-  <p><a href="mailto:choudharydhanraj239@gmail.com">choudharydhanraj239@gmail.com</a></p>
+  <h1><a href="Dhanraj Choudhary">Dhanraj Choudhary</a></h1>
+  <p> || <a href="https://dev-dhanraj.vercel.app/">My Portfolio</a> || <a href="https://my-projects-e3u.pages.dev/">My Blogs</a> || </p>
 </div>
 
 
@@ -35,24 +35,32 @@ A robust e-learning platform built with Node.js, Express.js, and PostgreSQL, off
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Technologies Used](#technologies-used)
-- [Features](#features)
-  - [Authentication](#authentication)
-  - [Course Management](#course-management)
-  - [Enrollment](#enrollment)
-  - [Super Admin Features](#super-admin-features)
-  - [Folder and file Stucture](#folder-and-file-stucture)
-  - [Clustering with PM2](#clustering-with-pm2)
-  - [Pagination](#pagination)
-  - [Express Rate Limiting](#express-rate-limiting)
-  - [Logging with Pino and Morgan](#logging-with-pino-and-morgan)
-  - [File Upload and Cloudinary](#file-upload-and-cloudinary)
-  - [Email Integration](#email-integration)
-  - [Grouping Routes](#grouping-routes )
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [`E-Learning Platform`](#e-learning-platform)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+      - [All are dummy env keys please use your own](#all-are-dummy-env-keys-please-use-your-own)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+    - [Authentication](#authentication)
+    - [Course Management](#course-management)
+    - [Enrollment](#enrollment)
+    - [Super Admin Features](#super-admin-features)
+    - [Clustering with PM2](#clustering-with-pm2)
+    - [Folder and file Stucture](#folder-and-file-stucture)
+    - [Pagination](#pagination)
+    - [Express Rate Limiting](#express-rate-limiting)
+    - [Logging with Pino and Morgan](#logging-with-pino-and-morgan)
+  - [Logging with Pino](#logging-with-pino)
+    - [File Upload and Cloudinary](#file-upload-and-cloudinary)
+    - [Email Integration](#email-integration)
+    - [Grouping Routes](#grouping-routes)
+  - [`express.application.prefix`](#expressapplicationprefix)
+    - [How it works](#how-it-works)
+    - [Benefits of Route Grouping](#benefits-of-route-grouping)
+    - [Changing the Prefix](#changing-the-prefix)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
